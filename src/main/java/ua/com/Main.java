@@ -20,6 +20,7 @@ public class Main
         showSize(arrayList);
         arrayList.add(2, "Amanda");
         showSize(arrayList);
+        arrayList.remove(1);
     }
 
     public static void showSize(ArrayList arrayList) {
